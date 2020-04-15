@@ -38,7 +38,7 @@ def main():
     for csv_file in TOPIC_CSV_MAPPER:
         print(csv_file, ".....started")
         topic_name = TOPIC_CSV_MAPPER[csv_file]
-        csv_file = "..\\resources\\" + csv_file
+        csv_file = "../resources/" + csv_file
         csv_data = parse_csv(csv_file, topic_name)
         print(csv_file, ".....done")
 
